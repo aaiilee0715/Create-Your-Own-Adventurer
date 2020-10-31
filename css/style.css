@@ -1,0 +1,68 @@
+/*
+Anothay Chansy & Shannon R. Mini Challenge # 0 - CYOA
+Using HTML tags, you will create a Choose Your Own Adventure Game.
+    1.Use text to tell the story
+    2.Links to options that progress your story.
+    3.Have at least 3 types of endings.
+    4.You get to choose the groups.
+    */
+
+
+
+
+body {
+    background: url('../image/startPagePic.jpg') center no-repeat;
+    background-color: rgb(235, 213, 230);
+    background-size: 70%;
+    background-position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#title {
+    font-size: 40px;
+    color: rgba(90, 14, 121, 0.5);
+    text-align: center;
+    border: ridge 4px;
+    background-color: rgba(235, 213, 230, .6);
+    font-family: cursive;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(146, 16, 172);
+    text-align: center;
+    font-family: cursive;
+    background-color: rgba(238, 175, 223, 0.4);
+}
+
+.scene {
+    height: 889px;
+}
+
+a {
+    color: rgb(172, 45, 223, .7);
+  
+    
+   
+}
+
+.credit {
+    position: center;
+    top: 370px;
+    left: 265px;
+    font-size: 10px;
+    background-color: rgba(235, 213, 230, .9);
+}
+
+.producer {
+    position: center;
+    top: 400px;
+    left: 265px;
+    font-size: 15px;
+    background-color: rgba(235, 213, 230, .1);
+    color: rgba(112, 34, 108, 0.9);
+}
+
